@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+log/
+*.log
+
+# 临时/大文件（按需添加）
+*.mp4
+*.gif
+*.zip
+
+O3_Generate
+DownloadAndUploadToHuggingFace

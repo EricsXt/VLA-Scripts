@@ -1,0 +1,445 @@
+{
+    "Difference : layout the laundry or flod the laundry":{
+        "mimic_play":{
+            "dummy_instruction":{
+                "13":"fold the laundry"
+            }
+        },
+        "roboturk":{
+            "layout_laundry":{
+                "2":"Unfold the towel"
+            }
+        }
+    },
+    "open the cabinet":{
+        "droid":{
+            "Open the top drawer of the plastic cabinet":{
+                "54":"grasp the top handle of the drawer , then pull the drawer open"
+            }
+        },
+        "dobbe":{
+            "Open the drawer.":{
+                "824":"close the gripper , push the drawer closed",
+                "1043":" left claw engages with the drawer handle and pulls outward to open"
+            }
+        }
+    },
+    "Difference: deal cloth":{
+        "roboturk":{
+            "layout_laundry":{
+                "20":"Unfold the trouser",
+                "70":"unfold the T-shirt"
+            }
+        },
+        "uiuc_d3field":{
+            "Dummy_instruction":{
+                "26":"fold the T-shirt"
+            }
+        },
+        "droid":{
+            "Fold the blue shirt":{
+                "48":"fold the blue shirt"
+            }
+        }
+    },
+    "open the faucet":{
+        "droid":{
+            "Push the faucet handle on the right forwards.":{
+                "92":"grasp the faucet handle , then rotate the faucet handle clockwise to open the faucet , then release the faucet handle."
+            }
+        },
+        "dobbe":{
+            "Switch the button.":{
+                "143":"grasp the faucet handle , then push the lever downward to switch the faucet."
+            }
+        }
+    },
+    "different zip way":{
+        "droid":{
+            "Dummy_instruction":{
+                "13":"Grab the zipper of the black clothing, then pull it upward toward the collar to zip up the garment."
+            }
+        },
+        "bridge":{
+            "unzip zipper bag":{
+                "62":"Grip the zipper and pull it upward to the halfway point."
+            }
+        }
+    },
+    "Difference : different level of drawer":{
+        "utaustin_mutex":{
+            "Kindly get your arm to the topmost drawer handle.Get a good grip on it, then softly pull to open it.":{
+                "71":"open the first-floor drawer"
+            },
+            "Move your gripper towards the bottom drawer handle.Grasp the handle gently with your gripper.Apply gentle outward force to slide the bottom drawer open.":{
+                "236":"open the second-floor drawer"
+            }
+        }
+    },
+    "fold the towel":{
+        "droid":{
+            "Fold the towel once on the table":{
+                "199":"fold the towel twice once on the table"
+            },
+            "Fold the towel in half":{
+                "234":"fold the towel in half "
+            }
+        }
+    },
+    "different way to open the door ,close or not , left or right claw":{
+        "droid":{
+            "Dummy_instruction":{
+                "2":"Insert the right-side claw into the top door of the washing machine, then pull outward to open the door"
+            }
+        },
+        "dobbe":{
+            "Open the door.":{
+                "536":"Insert the left claw into the door recess of the bottom door of the fridge, close the gripper,then pull to open the door"
+            }
+        }
+    },
+    "different way to push button":{
+        "droid":{
+            "Push down the button on the toaster.":{
+                "7":"close the gripper, push down the button on the toaster from top to bottom"
+            },
+            "Press down on the coffeemaker":{
+                "52":"press down on top button of the coffeemaker"
+            },
+            "Push a button on the board":{
+                "165":"push the red button on the board"
+            }
+        },
+        "dobbe":{
+            "Switch the button.":{
+                "156":"rotathe counterclockwise and grasp the switch of the electric kettle ,pull down to switch the button",
+                "963":"graps the switch of the coker , move left to swtich the button"
+            }
+        }
+    },
+    "two way to open the microwave":{
+        "dobbe":{
+            "Switch the button.":{
+                "666":"close the gripper, push the button of the Micro-wave oven to switch the button"
+            }
+        },
+        "droid":{
+            "Open the microwave door":{
+                "19":"grasp the door of the microwave oven from top side , then pull  it outward open"
+            }
+        }
+    },
+    "different way to move the towel,find  the datsets use different instruction to say the same task":{
+        "droid":{
+            "Move the towel to the right":{
+                "20":"inser the right claw to the towel , then move it to the right"
+            },
+            "Slide the towel to the right":{
+                "57":"slide the towel to the right"
+            }
+        },
+        "bridge":{
+            "Slide the cloth diagonally to the front of the spoon":{
+                "2":"slide towel diagonally to the front of the spoon"
+            },
+            "Move the ice cream scoop to the right edge of the table":{
+                "210":"touch the towel , then move it to the right edge of the table"
+            }
+        }
+    },
+    "place in different possition":{
+        "droid":{
+            "Put the packet on the bottom shelf above the sink.":{
+                "22":"Put the packet on the bottom shelf above the sink."
+            },
+            "Put the white cloth on the seat of the chair":{
+                "83":"pick up the white cloth , then put it on the seat of the chair"
+            }
+        },
+        "dobbe":{
+            "Pick the object and place it.":{
+                "1254":"pick up the white bottle from the ground ,place it the desk"
+            }
+        }
+    },
+    "about tap(slide or press)":{
+        "droid":{
+            "Slide the tap to the center of the sink and press down the tap handle":{
+                "27":"Slide the tap to the center of the sink and press down the tap handle with the only left claw"
+            },
+            "Open the tap":{
+                "189":"close the gripper, then slide the tap counterclockwise to open the tap"
+            }
+        },
+        "dobbe":{
+            "Switch the button.":{
+                "143":"grasp the right side of the gray faucet switch, push the lever downward to switch the faucet."
+            }
+        }
+    },
+    "pour out things(droid datsets need to modify)":{
+        "droid":{
+            "Put the orange thing in the can":{
+                "29":"pour the rice in the orange bowl to the bigger green bowl"
+            },
+            "Pour the contents of the orange cup into the bowl":{
+                "34":"pour the contents of the orange cup into the bowl"
+            },
+            "Pour the contents of the left bowl into the right bowl":{
+                "53":"pour the contents of the left bowl into the right bowl"
+            }
+        },
+        "berkeley_fanuc_manipulation":{
+            "Pour the objects in the blue cup to the white cup.":{
+                "245":"pick up the cup by the rim , then pour the objects in the blue cup to the white cup"
+            }
+        }
+    },
+    "rotate the handle to open the door":{
+        "droid":{
+            "Push the door handle down and open the door":{
+                "40":"grasp the handle of the door , then push the door handle down ,push the edge of door open "
+            }
+        },
+        "dobbe":{
+            "Open the door.":{
+                "1025":"rotate the gripper 90 degrees clockwise , then pull the handle down , then push the door open "
+            }
+        }
+    },
+    "close the drawer":{
+        "droid":{
+            "Close the top left drawer":{
+                "47":"push the right claw to close the top level drawer"
+            }
+        },
+        "dobbe":{
+            "Close the drawer.":{
+                "939":"close the gripper, push the drawer closed"
+            }
+        }
+    },
+    "[interesting and from different task]upright the object":{
+        "bridge":{
+            "flip orange pot upright in sink":{
+                "13":"flip orange pot upright in sink"
+            },
+            "flip cup upright":{
+                "20":"flip the pink cup upright in the sink"
+            },
+            "flip pot upright in sink distractors":{
+                "84":"flip the pot upright in the sink"
+            }
+        }
+    },
+    "different way to open the fridge":{
+        "dobbe":{
+            "Open the door.":{
+                "536":"Insert the left claw into the door recess of the bottom door of the fridge, close the gripper,then pull to open the door"
+            }
+        },
+        "bridge":{
+            "open fridge":{
+                "171":"grasp the handle of the fridge and pull the door open ,release the handle and pull the door with the whole gripper to open it" 
+            }
+        }
+    },
+    "different way to open the oven door":{
+        "bridge":{
+            "open oven":{
+                "108":"insert the one of the claw into the door recess of the oven , then pull the door open,then pull the door with gripper to open it"
+            }
+        },
+        "dobbe":{
+            "Open the door.":{
+                "50":"rotate the gripper clockwise , hen grasp the middle of the white rectangular handle of the oven door and pull the door open."
+            }
+        }
+    },
+    "upright different object have different contact part":{
+        "bridge":{
+            "upright basil bottle cardboard fence":{
+                "91":"grasp the top of basil bottle and upright it"
+            },
+            "upright metal pot cardboard fence":{
+                "97":"grasp the handle of the pot and upright it"
+            }
+        }
+    },
+    "different way to pull the the table":{
+        "droid":{
+            "Pull the pull out table out then place the sponge on it":{
+                "163":"insert the right claw into the first-floor drawer , then pull the drawer out, then place the sponge on it"
+            }
+        },
+        "dobbe":{
+            "Open the drawer.":{
+                "786":"grasp the drawer of table , then pull the drawer out"
+            }
+        }
+    },
+    "remove or place the lid":{
+        "droid":{
+            "Remove the lid from the transparent jar":{
+                "168":"Remove the lid from the transparent jar, place it on the wooden table"
+            },
+            "Place the lid on the jug":{
+                "8":"Place the lid on the jug"
+            },
+            "Remove the lid from the pot and place it on the table":{
+                "178":"remove the lid from the pot and place it on the table"
+            },
+            "Put the lid over the spray bottle":{
+                "205":"Put the transparent lid over the spray bottle"
+            }
+        }
+    },
+    "pick up the pen and palce it ":{
+        "droid":{
+            "Pick the pen and put it in the cup":{
+                "230":"pick up the pen from the left sied , then put it in the cup"
+            },
+            "Pick the pen on the table and put it in the cup":{
+                "297":"Pick the pen on the left of the cup and put it in the cup"
+            },
+            "Take the pen out of the bowl and put it on the table":{
+                "176":"Take the pen out of the bowl and put it on the table"
+            }
+        }
+    },
+    "pull the tap":{
+        "droid":{
+            "Pull the handle of the tap to the right":{
+                "175":"close the gripper , pull the handle of the tap to the right"
+            }
+        },
+        "dobbe":{
+            "Switch the button.":{
+                "143":"grasp the handle of the tap , then pull the handle of the tap to the right"
+            }
+        }
+    },
+    "sweep the table":{
+        "droid":{
+            "Pick up the towel and clean the small portion of the table":{
+                "188":"pick up the towel and clean the small portion of the table"
+            },
+            "Use the towel to wipe the plate":{
+                "208":"use the wipe the plate"
+            }
+        }
+    },
+    "push button":{
+        "droid":{
+            "Press a button on the dishwasher.":{
+                "281":"press the button on the dishwasher"
+            },
+            "Push a button on the board":{
+                "165":"push the red button on the board"
+            }
+        }
+    },
+    "after open the grill":{
+        "cmu_play_fusion":{
+            "open grill, then pick bread and place insid grill":{
+                "227":"grasp the handle of the grill , then pull up to open the grill , then pick the bread and place insid grill"
+            },
+            "open grill, then pick steak and place insid grill":{
+                "202":"grasp the handle of the grill , then pull up to open the grill , then pick the steak and place insid grill"
+            }
+        }
+    },
+    "inset the flower one or two":{
+        "uiuc_d3field":{
+            "Dummy_instruction":{
+                "21":"pick up the flower in the table and insert it into the vase"
+            }
+        },
+        "mimic_play":{
+            "dummy instruction":{
+                "114":"pick up two flowers in the table and insert it into the vase , one by one"
+            }
+        }
+    },
+    "deal fork ":{
+        "uiuc_d3field":{
+            "Dummy_instruction":{
+                "90":"pick the up the two forks one by one and place it on the two side of the plate and align the fork parallel to each other"
+            }
+        },
+        "bridge":{
+            "Put the blue fork on top of the napkin":{
+                "263":"Put the blue fork on top of the napkin"
+            }
+        }
+    },
+    "different direction of the rotation":{
+        "bc_z":{
+            "wipe the white sponge on the table":{
+                "136":"grasp the white sponge , then wipe the table clockwise",
+                "191":"grasp the white sponge , then wipe the table counterclockwise"
+            }
+        }
+    },
+    "different direction of knock over":{
+        "bc_z":{
+            "knock the bottle over":{
+                "22":"Knock the bottle forward to tip it over.",
+                "148":"Knock the bottle leftward to tip it over."
+            }
+        }
+    },
+    "different direction of the drag":{
+        "bc_z":{
+            "drag the pepper across the table":{
+                "476":"drag the pepper upward across the table",
+                "297":"drag the pepper rightward across the table"
+            }
+        }
+    },
+    "contact part of the object":{
+        "bc_z":{
+            "stand the bottle upright":{
+                "157":"grasp bottle by its neck and stand it upright.",
+                "425":"grasp bottle by its body and stand it upright."
+            }
+        }
+    },
+    "trajectory of the object":{
+        "bc_z":{
+            "wipe table surface with sponge":{
+                "248":"pick up the sponge , then wipe the table counterclockwise 5 times",
+                "3034":"pick up the sponge , then wipe the table clockwise 5 times"
+            }
+        }
+    },
+    "whether touching the bowl":{
+        "bc_z":{
+            "wipe red bowl with eraser":{
+                "1575":"grasp the eraser , then wipe and touching the red bowl counterclockwise",
+                "3008":"grasp the eraser , then wipe the red bowl counterclockwise without touching the red bowl"
+            }
+        }
+    },
+    "topple or upright":{
+        "bridge":{
+            "topple metal pot cardboard fence":{
+                "204":"grasp the side handle of the pot and topple it"
+            },
+            "flip pot upright in sink distractors":{
+                "84":"grasp the rim of the pot and upright it"
+            }
+        }
+    },
+    "different way to close the the oven":{
+        "robo_set":{
+            "Flap close oven.":{
+                "22":"grasp the edge door of the oven ,then flap to close the oven"
+            },
+            "Flap open oven.":{
+                "20":"grasp the the handle of the oven , then flap to open the oven"
+            }
+        }
+    }
+
+}
