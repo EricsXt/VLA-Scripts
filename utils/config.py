@@ -101,7 +101,7 @@ DATASET_CONFIGS = {
         "observation_field": "observation",
         "skip_frame": 1,
         "fps": 20,
-        "max_episodes": None,
+        "max_episodes": 10,
     },
     "Mobile ALOHA":{
         "dataset_name": "Mobile ALOHA",
@@ -121,13 +121,13 @@ DATASET_CONFIGS = {
         "fps": 20,
         "max_episodes": None,
     },
-    "BridgeData":{
-        "dataset_name": "BridgeData",
+    "BridgeDataV2":{
+        "dataset_name": "BridgeDataV2",
         "image_field": "image",
         "language_field": "natural_language_instruction",
         "observation_field": "observation",
         "skip_frame": 1,
-        "fps": 20,
+        "fps": 10,
         "max_episodes": None,
     },
     "QT-Opt":{
@@ -250,12 +250,14 @@ DATASET_CONFIGS = {
         "fps": 20,
         "max_episodes": None,
     },
+    
 }
 
 Local_dataset = [
     # "RT-1 Robot Action",
     # "NYU Franka Play",
-    "RoboSet",
+    # "RoboSet",
+    "BridgeDataV2"
     # "RoboSet",
     # "Roboturk",
     # "Berkeley RPT Data",

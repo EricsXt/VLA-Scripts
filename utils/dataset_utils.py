@@ -3,6 +3,7 @@ import re
 import subprocess
 import logging
 
+
 def extract_instruction_from_step0(step_0):
     """根据字段结构提取 instruction 文本。"""
     if 'observation' not in step_0:
@@ -134,5 +135,4 @@ def dataset2path(dataset_name, is_local=False):
         except Exception as e:
             logging.error(f"获取数据集 {dataset_name} 版本时出错: {e}")
             raise
-
 
